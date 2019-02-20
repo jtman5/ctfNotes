@@ -33,4 +33,5 @@ MATCHING IDs: POSTS 2+6 and POSTS 3+8
               SIMILARITIES: 2+6 = None, post IDs are 4 apart. 
 	                    3+8 = Both titles have first word lowercase and a capital later in power, but post 8 is 1 word. 
 COOKIE SIMILARITY?: Delete ID corresponds to the user ID. IE: Deleting post 5 contains same code as user #5 Cookie. User 9 
-                    should match deleting post 9
+                    should match deleting post 9 once I create user 9. Probably will have to reset the ctf to get user id 
+		    to match admins 
