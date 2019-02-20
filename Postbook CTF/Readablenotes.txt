@@ -9,7 +9,8 @@ Cookie ID 6: 1679091c5a880faf6fb5e6087eb1b2dc
 	ID: testtest:testtest
 Cookie ID 7/h: 8f14e45fceea167a5a36dedd4bea2543
 	ID: adminn:admin
-
+(/h is the profile directory when accessing "My Profile", probably is nothing idk)
+Cookie ID 8/:
 Session ID is same as 2 for all/ DNE on some
 
 Deleting as ID 2: e4da3b7fbbce2345d7772b0674a318d5
@@ -17,10 +18,19 @@ Deleting as ID 2: e4da3b7fbbce2345d7772b0674a318d5
 	      Post 3: c9f0f895fb98ab9159f51fd0297e236d Title: “new Post” body: “New Post”
 	      Post 4: a87ff679a2f3e71d9181a67b7542122c Title: “Hi” body: “HI” Autor: test
 	      Post 5: e4da3b7fbbce2345d7772b0674a318d5 Title “” Body: “” Author test
-	      Post 6: 1679091c5a880faf6fb5e6087eb1b2dc title “” body “” Author newtest
+	      Post 6: 1679091c5a880faf6fb5e6087eb1b2dc title “” body “” Author newtest 
+	      #DELETE ID SAME AS POST 2
 	      Post 7: 8f14e45fceea167a5a36dedd4bea2543 title “” body “” author newtest
-	      Post 8: c9f0f895fb98ab9159f51fd0297e236d title “newTEST” body “TEST” author newtest
+	      Post 8: c9f0f895fb98ab9159f51fd0297e236d title “newTEST” body “TEST” author newtest 
+	      #DELETE ID SAME AS POST 3
 	      Post 9: 45c48cce2e2d7fbdea1afc51c7c6ad26 title “newnewnew” body “newnewnew” author newtest
 	      Post 10: d3d9446802a44259755d38e6d163e820 title “” body “” author testtest
-	      Post 11: 6512bd43d9caa6e02c990b0a82652dca title “Hello world” body “This is the first post! Author testtest (Same as admin post)
+	      Post 11: 6512bd43d9caa6e02c990b0a82652dca title “Hello world” body “This is the first post! Author testtest
+	      (Exact same format and content as admin's post,)
 	      Post 12: c20ad4d76fe97759aa27a0c99bff6710 title “” body “” author adminn
+
+MATCHING IDs: POSTS 2+6 and POSTS 3+8
+              SIMILARITIES: 2+6 = None, post IDs are 4 apart. 
+	                    3+8 = Both titles have first word lowercase and a capital later in power, but post 8 is 1 word. 
+COOKIE SIMILARITY?: Delete ID corresponds to the user ID. IE: Deleting post 5 contains same code as user #5 Cookie. User 9 
+                    should match deleting post 9
