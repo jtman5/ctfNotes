@@ -34,4 +34,25 @@ MATCHING IDs: POSTS 2+6 and POSTS 3+8
 	                    3+8 = Both titles have first word lowercase and a capital later in power, but post 8 is 1 word. 
 COOKIE SIMILARITY?: Delete ID corresponds to the user ID. IE: Deleting post 5 contains same code as user #5 Cookie. User 9 
                     should match deleting post 9 once I create user 9. Probably will have to reset the ctf to get user id 
-		    to match admins 
+		    to match admins
+
+New segment: 
+	Cookie similarity in deleting posts led to flag. Now trying to log in 	using cookies
+	UserID 2 
+			Cookie: c81e728d9d4c2f636f067f89cc14862c
+			User/Pass: user/password
+	UserID 3
+			Cookie: eccbc87e4b5ce2fe28308fd9f2a7baf3
+			User/Pass: test/test
+	UserID 4
+			Cookie: a87ff679a2f3e71d9181a67b7542122c
+			User/Pass: newtest/newtest
+	UserID 5 
+			Cookie: e4da3b7fbbce2345d7772b0674a318d5
+			User/Pass: superadmin/superadmin
+	Posts:
+		Post id3: eccbc87e4b5ce2fe28308fd9f2a7baf3 made by User2
+		Post id4: a87ff679a2f3e71d9181a67b7542122c Made by User3
+		Post id5: e4da3b7fbbce2345d7772b0674a318d5 Made by User4
+		Post id6: 1679091c5a880faf6fb5e6087eb1b2dc Made by User5
+						
